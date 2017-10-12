@@ -7,7 +7,7 @@ create yaml file
 
 ex : 
 ```
-datasource : "data/izy.xlsx"
+datasource : "izy-strings.xlsx"
 ios : {"root" : "../izy-ios","path" : "izy/Application"}
 android : {"root" : "../izy-android"}
 ```
@@ -18,6 +18,7 @@ android : root of project
 
 ## Run
 ```
-sudo pip install -r requirement.txt
+need pip 9.0.1 and Python 2.7
+sudo pip install -r requirements.txt
 python localize.py <file.yaml>
 ```
